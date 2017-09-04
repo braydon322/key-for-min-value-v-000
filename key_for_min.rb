@@ -12,9 +12,4 @@ smallest_hash = {}
      end
   end
 
- if smallest_hash == nil
-   nil
- else
-   smallest_key
- end
 end
