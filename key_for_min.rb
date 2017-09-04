@@ -9,11 +9,11 @@ smallest_hash = {}
     nil
   else
     name_hash.each do |key, value|
-     if value < smallest_value
-       smallest_key = key
-       smallest_value = value
-     end
+       if value < smallest_value
+         smallest_key = key
+         smallest_value = value
+       end
     end
-    smallest_key
+    return smallest_key
   end
 end
