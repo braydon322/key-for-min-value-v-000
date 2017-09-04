@@ -11,7 +11,7 @@ smallest_hash = {}
        smallest_value = value
      end
   end
-  
+
   if key_for_min_value({}) == nil
     nil
   else
