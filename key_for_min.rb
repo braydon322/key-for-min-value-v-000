@@ -11,10 +11,10 @@ smallest_hash = {}
        smallest_value = value
      end
   end
-smallest_hash[smallest_key] = smallest_value
- if smallest_hash != ""
-   smallest_key
- else
+
+ if smallest_hash == nil
    nil
+ else
+   smallest_key
  end
 end
