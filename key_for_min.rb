@@ -11,5 +11,6 @@ smallest_hash = {}
        smallest_value = value
      end
   end
+  smallest_key
 
 end
