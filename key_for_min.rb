@@ -12,8 +12,15 @@ smallest_hash = {}
        if value < smallest_value
          smallest_key = key
          smallest_value = value
+         smallest_hash[smallest_key] = smallest_value
        end
     end
-    return smallest_key
+    result(smallest_hash)
   end
 end
+
+
+
+
+def result(hash)
+  return hash.keys[0]
