@@ -24,3 +24,4 @@ end
 
 def result(hash)
   return hash.keys[0]
+end
