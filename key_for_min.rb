@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
      smallest_hash[smallest_key] = smallest_value
    end
  end
- if smallest_hash = {}
+ if smallest_hash == {}
    nil
  else
    smallest_hash
