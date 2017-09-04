@@ -11,6 +11,10 @@ smallest_hash = {}
        smallest_value = value
      end
   end
-  smallest_key
+  if key_for_min_value({})
+    nil
+  else
+    smallest_key
+  end
 
 end
