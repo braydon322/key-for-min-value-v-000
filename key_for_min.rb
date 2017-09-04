@@ -12,5 +12,6 @@ def key_for_min_value(name_hash)
    end
  end
  smallest_hash[smallest_key] = smallest_value
- return smallest_key
+ smallest_key
+ nil if smallest_key == {}
 end
