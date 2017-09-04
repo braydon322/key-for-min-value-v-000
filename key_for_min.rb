@@ -10,8 +10,8 @@ smallest_hash = {}
        if value < smallest_value
          smallest_key = key
          smallest_value = value
-         smallest_hash[smallest_key] = smallest_value
        end
+       smallest_hash[smallest_key] = smallest_value
     end
     result(smallest_hash)
   end
